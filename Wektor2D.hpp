@@ -18,7 +18,7 @@ class Wektor2D
 
 Wektor2D operator+(Wektor2D w1, Wektor2D w2)
 {
-	return Wektor2D( w1.getX() + w2.getX(), w1.getY() + w2.getY() );
+	return Wektor2D{ w1.getX() + w2.getX(), w1.getY() + w2.getY() };
 }
 
 double operator*(Wektor2D w1, Wektor2D w2)
